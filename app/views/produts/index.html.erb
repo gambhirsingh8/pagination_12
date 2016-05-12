@@ -1,0 +1,23 @@
+<%= will_paginate @produts %>
+<table style="width:500px">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th style="text-align:right;">Price</th>
+    <th style="text-align:right;">Quantity</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @produts.each do |produt| %>
+      <tr>
+        <td><%= product.name %></td>
+        <td style="text-align:right;"><%= number_to_currency produt.price %></td>
+        <td style="text-align:right;"><%= produt.quantity %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+<%= will_paginate @produts %>
+
+<h1>Produts#index</h1>
+<p>Find me in app/views/produts/index.html.erb</p>

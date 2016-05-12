@@ -4,6 +4,7 @@ gem 'shopify_app','7.0.4'
 gem 'shopify_api','4.2.0'
 gem 'puma'
 gem 'omniauth-oauth2'
+gem 'will_paginate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
